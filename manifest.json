@@ -1,0 +1,15 @@
+{
+  "name": "Poszukiwacz",
+  "short_name": "Poszukiwacz",
+  "description": "Offlinowa gra RPG typu idle/AFK",
+  "lang": "pl",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1b1d2a",
+  "theme_color": "#1b1d2a",
+  "icons": [
+    { "src": "assets/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
