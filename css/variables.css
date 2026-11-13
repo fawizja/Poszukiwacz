@@ -1,0 +1,56 @@
+/* Zmienne motywu i grafik zastępczych.
+   Aby podmienić grafikę, ustaw np. --img-hero: url('../assets/portraits/hero.png');
+   Elementy z data-portrait / data-item-base / data-location / data-building / data-icon
+   pozwalają też na indywidualne reguły, np. .portrait[data-portrait="f_wolf"] { background-image: ... } */
+:root {
+  --bg: #1b1d2a;
+  --bg-2: #232637;
+  --card: #2a2e42;
+  --card-2: #33384f;
+  --border: #3d4360;
+  --text: #ecebf3;
+  --muted: #9a9cb5;
+  --primary: #4f8cff;
+  --accent: #b16cff;
+  --gold: #e8b04a;
+  --danger: #e0524f;
+  --ok: #4fc27a;
+  --warn: #f0a63a;
+
+  --hp: #d9534f;
+  --xp: #6c8cff;
+  --enemy-hp: #c0392b;
+  --boss: #e67e22;
+  --craft: #4fc27a;
+
+  --rarity-0: #d6d6d6;
+  --rarity-1: #4fc27a;
+  --rarity-2: #4f8cff;
+  --rarity-3: #b16cff;
+  --rarity-4: #ff9a2e;
+
+  --fire: #ff6b35;
+  --ice: #5bc0eb;
+  --earth: #a3824a;
+
+  --res-wood: #8b5a2b;
+  --res-stone: #8e8e8e;
+  --res-iron: #6e7f90;
+  --res-herbs: #5fae4f;
+  --res-crystals: #9f7bff;
+  --res-leather: #a86b3c;
+  --res-essence: #e0a3ff;
+
+  /* Obrazy (domyślnie brak — używane są kształty CSS) */
+  --img-hero: none;
+  --img-enemy: none;
+  --img-location: none;
+
+  --radius: 12px;
+  --radius-sm: 8px;
+  --tap: 44px;
+  --nav-h: 64px;
+  --top-h: 56px;
+  --speed: 0.25s;
+  --font: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
